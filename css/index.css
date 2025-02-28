@@ -1,0 +1,30 @@
+body.dark-mode {
+    background-color: #121212 !important;
+    color: white !important;
+}
+
+.navbar-brand {
+    font-family: "lobster", cursive;
+    font-size: 25px;
+}
+
+.Vido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh !important;
+    width: 100% !important;
+}
+
+.Vido > video {
+    width: 30em !important;
+    height: 30em !important;
+    object-fit: calc(100% 80em) !important;
+    border: 5px solid #121212 !important;
+    border-radius: 10px !important;
+}
+
+/* Untuk Dark Mode */
+body.dark-mode .Vido > video {
+    border-color: white !important;
+}
